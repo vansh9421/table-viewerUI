@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.table-content {
+  margin-top: 3rem;
+  border: 2px solid black;
+}
+
+.table-cell {
+  border: 1px solid green;
+}
