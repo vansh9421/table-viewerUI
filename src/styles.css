@@ -1,13 +1,22 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
-}
-
 .table-content {
-  margin-top: 3rem;
-  border: 2px solid black;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
 }
-
+.table-header {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
 .table-cell {
-  border: 1px solid green;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+.table-cell {
+  word-spacing: 8px;
+}
+. tr:nth-child(even) {
+  background-color: #f9f9f9;
 }
